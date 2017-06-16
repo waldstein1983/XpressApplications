@@ -1,1 +1,1 @@
-/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/XpressApplications.dir/main.cpp.o  -o XpressApplications 
+/Library/Developer/CommandLineTools/usr/bin/c++   -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/XpressApplications.dir/xbels.cxx.o  -o XpressApplications  -L/opt/xpressmp/lib -Wl,-rpath,/opt/xpressmp/lib -lxprb -lxprl -lxprnls -lxprs 

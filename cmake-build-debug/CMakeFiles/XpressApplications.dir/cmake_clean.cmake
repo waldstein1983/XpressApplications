@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/XpressApplications.dir/main.cpp.o"
+  "CMakeFiles/XpressApplications.dir/xbels.cxx.o"
   "XpressApplications.pdb"
   "XpressApplications"
 )

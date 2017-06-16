@@ -123,32 +123,32 @@ XpressApplications/fast:
 	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/build
 .PHONY : XpressApplications/fast
 
-main.o: main.cpp.o
+xbels.o: xbels.cxx.o
 
-.PHONY : main.o
+.PHONY : xbels.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/main.cpp.o
-.PHONY : main.cpp.o
+xbels.cxx.o:
+	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/xbels.cxx.o
+.PHONY : xbels.cxx.o
 
-main.i: main.cpp.i
+xbels.i: xbels.cxx.i
 
-.PHONY : main.i
+.PHONY : xbels.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/main.cpp.i
-.PHONY : main.cpp.i
+xbels.cxx.i:
+	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/xbels.cxx.i
+.PHONY : xbels.cxx.i
 
-main.s: main.cpp.s
+xbels.s: xbels.cxx.s
 
-.PHONY : main.s
+.PHONY : xbels.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/main.cpp.s
-.PHONY : main.cpp.s
+xbels.cxx.s:
+	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/xbels.cxx.s
+.PHONY : xbels.cxx.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... XpressApplications"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... xbels.o"
+	@echo "... xbels.i"
+	@echo "... xbels.s"
 .PHONY : help
 
 

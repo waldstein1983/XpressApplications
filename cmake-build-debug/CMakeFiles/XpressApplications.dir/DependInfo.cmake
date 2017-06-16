@@ -4,12 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/baohuaw/ClionProjects/XpressApplications/main.cpp" "/Users/baohuaw/ClionProjects/XpressApplications/cmake-build-debug/CMakeFiles/XpressApplications.dir/main.cpp.o"
+  "/Users/baohuaw/ClionProjects/XpressApplications/xbels.cxx" "/Users/baohuaw/ClionProjects/XpressApplications/cmake-build-debug/CMakeFiles/XpressApplications.dir/xbels.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/opt/xpressmp/include"
   )
 
 # Targets to which this target links.

@@ -57,38 +57,38 @@ include CMakeFiles/XpressApplications.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/XpressApplications.dir/flags.make
 
-CMakeFiles/XpressApplications.dir/main.cpp.o: CMakeFiles/XpressApplications.dir/flags.make
-CMakeFiles/XpressApplications.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/baohuaw/ClionProjects/XpressApplications/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/XpressApplications.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XpressApplications.dir/main.cpp.o -c /Users/baohuaw/ClionProjects/XpressApplications/main.cpp
+CMakeFiles/XpressApplications.dir/xbels.cxx.o: CMakeFiles/XpressApplications.dir/flags.make
+CMakeFiles/XpressApplications.dir/xbels.cxx.o: ../xbels.cxx
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/baohuaw/ClionProjects/XpressApplications/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/XpressApplications.dir/xbels.cxx.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/XpressApplications.dir/xbels.cxx.o -c /Users/baohuaw/ClionProjects/XpressApplications/xbels.cxx
 
-CMakeFiles/XpressApplications.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XpressApplications.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/baohuaw/ClionProjects/XpressApplications/main.cpp > CMakeFiles/XpressApplications.dir/main.cpp.i
+CMakeFiles/XpressApplications.dir/xbels.cxx.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/XpressApplications.dir/xbels.cxx.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/baohuaw/ClionProjects/XpressApplications/xbels.cxx > CMakeFiles/XpressApplications.dir/xbels.cxx.i
 
-CMakeFiles/XpressApplications.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XpressApplications.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/baohuaw/ClionProjects/XpressApplications/main.cpp -o CMakeFiles/XpressApplications.dir/main.cpp.s
+CMakeFiles/XpressApplications.dir/xbels.cxx.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/XpressApplications.dir/xbels.cxx.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/baohuaw/ClionProjects/XpressApplications/xbels.cxx -o CMakeFiles/XpressApplications.dir/xbels.cxx.s
 
-CMakeFiles/XpressApplications.dir/main.cpp.o.requires:
+CMakeFiles/XpressApplications.dir/xbels.cxx.o.requires:
 
-.PHONY : CMakeFiles/XpressApplications.dir/main.cpp.o.requires
+.PHONY : CMakeFiles/XpressApplications.dir/xbels.cxx.o.requires
 
-CMakeFiles/XpressApplications.dir/main.cpp.o.provides: CMakeFiles/XpressApplications.dir/main.cpp.o.requires
-	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/main.cpp.o.provides.build
-.PHONY : CMakeFiles/XpressApplications.dir/main.cpp.o.provides
+CMakeFiles/XpressApplications.dir/xbels.cxx.o.provides: CMakeFiles/XpressApplications.dir/xbels.cxx.o.requires
+	$(MAKE) -f CMakeFiles/XpressApplications.dir/build.make CMakeFiles/XpressApplications.dir/xbels.cxx.o.provides.build
+.PHONY : CMakeFiles/XpressApplications.dir/xbels.cxx.o.provides
 
-CMakeFiles/XpressApplications.dir/main.cpp.o.provides.build: CMakeFiles/XpressApplications.dir/main.cpp.o
+CMakeFiles/XpressApplications.dir/xbels.cxx.o.provides.build: CMakeFiles/XpressApplications.dir/xbels.cxx.o
 
 
 # Object files for target XpressApplications
 XpressApplications_OBJECTS = \
-"CMakeFiles/XpressApplications.dir/main.cpp.o"
+"CMakeFiles/XpressApplications.dir/xbels.cxx.o"
 
 # External object files for target XpressApplications
 XpressApplications_EXTERNAL_OBJECTS =
 
-XpressApplications: CMakeFiles/XpressApplications.dir/main.cpp.o
+XpressApplications: CMakeFiles/XpressApplications.dir/xbels.cxx.o
 XpressApplications: CMakeFiles/XpressApplications.dir/build.make
 XpressApplications: CMakeFiles/XpressApplications.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/baohuaw/ClionProjects/XpressApplications/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable XpressApplications"
@@ -99,7 +99,7 @@ CMakeFiles/XpressApplications.dir/build: XpressApplications
 
 .PHONY : CMakeFiles/XpressApplications.dir/build
 
-CMakeFiles/XpressApplications.dir/requires: CMakeFiles/XpressApplications.dir/main.cpp.o.requires
+CMakeFiles/XpressApplications.dir/requires: CMakeFiles/XpressApplications.dir/xbels.cxx.o.requires
 
 .PHONY : CMakeFiles/XpressApplications.dir/requires
 
